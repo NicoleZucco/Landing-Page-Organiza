@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        background-color: #f9fff9;
+}
+
+nav {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tittle {
+    font-family: mont;
+    font-size: 40px;
+}
+
+ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#div-feature {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.feature-block {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#floatingInputGroup2 {
+    display: flex;
+    justify-content: center;
+}
+
+#button-baixar {
+    display: flex;
+    justify-content: center; 
+    margin-top: 40px;
+}
+
+#button-inscreva-se {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#button-experimente {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#inputs {
+    margin-top: 40px;
+    max-width: 100%;
+    justify-self: center;
+    width: 40%;
+}
